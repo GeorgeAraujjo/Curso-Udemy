@@ -1,0 +1,22 @@
+for ( var i =0;i<10;i++){
+    console.log(i)
+}
+/*O laço de repetição tem 3 partes:
+*var i =o (declaração da variavel)
+*i<10 ( condição que ele vai repetir no bloco)
+*i++(incremento)
+*/
+
+
+const funcs =[]
+
+for(var i =0;i<10; i++){
+    funcs.push(function(){
+        console.log(i)
+    })
+}
+
+funcs[2]()
+funcs[8]()
+funcs[9]()
+
